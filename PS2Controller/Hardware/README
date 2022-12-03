@@ -1,0 +1,25 @@
+Use a 7805 for 5V. You should think about using a LM1086 for getting 3.3V.
+Look at the 7805/LM1086 datasheet for C1 and C2 values.
+
+P4 (CONN_2) is the battery connector.
+
+K1 and K2 are input and output for the PSP audio jacks.
+
+X1 is 16MHz. See the crystal's datasheet for C3 and C4 values.
+
+R1 and R2 can be 1 to 10kOhm
+
+P1 goes to PSP.
+
+P2 goes to TV jack.
+
+P3 goes to controller.
+
+Use resistors for the LEDs D1 and D2.
+
+
+
+Tips:
+Get a PSP TV out extention cable and cut it in two parts for getting a PSP SIO
+jack and connector. The cable of "DragonElectronics" works great.
+Get a PS2 controller extention cable for getting a PS2 jack.

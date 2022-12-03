@@ -1,0 +1,15 @@
+This is an attempt of connecting a PS2 controller to a PSP with neithermodifing the controller nor the PSP.
+It works by converting the PS2 controller (SPI) signal to a UART signal. The code is very bad because
+I'm a bad developer and I didn't care about it as long as it was working. It's your turn to improve the code.
+
+The PSP plugin has a single known bug. It freezes when suspending and resuming the main thread. That means
+you can not suspend and resume the PSP and contine playing then. It needs to completely re-load the plugin.
+Getting it fixed is your turn either.
+
+Every file provided in this archive is under the licence found in LICENCE. You may _NOT_ repack this without
+including both licence and credits file. See LICENCE for more information. If you have any questions, feel
+free to eMail me: TokyoDriftPSP@googlemail.com .
+
+visit tokyodriftpsp.wordpress.com
+
+- TokyoDrift, the 15 years old, very bad developer.

@@ -1,0 +1,12 @@
+-= CREDITS GO TO: =-
+
+
+TokoyDrift	- Schematics, AVR code, PSP code (apart from SIO driver,
+		  syscon debug handler, power callbacks)
+Jean    	- SIO Driver based on TyRaNiD's
+TyRaNiD 	- SIO Driver, Power Callbacks
+Booster 	- SysCon debug handler
+Blizzard 	- Doing this mod before (a little different though)
+PSPSDK Makers	- PSPSDK
+Dark_AleX	- Making the PSP scene big
+ATMEL		- Great Microcontrollers, AVR Studio
